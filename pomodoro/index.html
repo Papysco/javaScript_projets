@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>Pomodoro</title>
+</head>
+<body>
+    <div class="trait"></div>
+    <div class="nav">
+        <img src="/img/tomate.png" alt="tomate">
+        <h1>Pomodoro Timer</h1>
+    </div>
+        
+    <div class="timer">
+        <p class="timer_text"></p>
+    </div>
+    <div class="trait"></div>
+
+    <div class="btn">
+        <button id="play"><img src="/img/play.svg" alt="play"></button>
+        <button id="pause"><img src="/img/pause.svg" alt="pause"></button>
+    </div>
+
+    <div class="choix">
+        <button class="choix_boutton" id="five" onclick="fonction1();">5 Min</button>
+        <button class="choix_boutton" id="ten" onclick="fonction2();">10 Min</button>
+        <button class="choix_boutton" id="fifteen" onclick="fonction3();">15 Min</button>
+        <button class="choix_boutton" id="twenty" onclick="fonction4();">20 Min</button>
+        <button class="choix_boutton" id="twentyFive" onclick="fonction5();">25 Min</button>
+    </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
