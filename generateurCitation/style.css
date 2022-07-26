@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: dodgerblue;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    background-color: cadetblue;
+    color: rgb(151, 82, 33);
+    height: 2em;
+    padding-top: 0.5em;
+}
+
+.bloc{
+    background-color: coral;
+    height: 50vh;
+    width: 90%;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    color: black;
+    text-align : center;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 30%;
+    width: 90%;
+}
+
+.bouton{
+    width: 40%;
+    height: 20%;
+    background-color: red;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    bottom:20% ;
+    
+}
