@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    background-color: rgb(138, 184, 230);
+}
+h1{
+    text-align: center;
+    background-color: rgb(128, 151, 172);
+    font-size: 5rem;
+}
+
+.bloc{
+    width: 100%;
+    
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#bloc_input{
+    font-size: 2rem;
+    width: auto;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+button{
+    width: 8rem;
+    margin-left: 5px;
+    font-size: larger;
+    background-color: red;
+}
+
+.reponse{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 4rem;
+}
