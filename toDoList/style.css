@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: dodgerblue;
+}
+
+.bloc{
+    width: 75%;
+    height: auto;
+    min-height: 40vh;
+    padding-bottom: 2rem;
+    background-color: darkblue;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 10vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 5rem;
+    margin-top: 2rem;
+}
+
+.champs{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    margin-top: 3rem;
+}
+
+input{
+    width: 30rem;
+    height: 3rem;
+    font-size: larger;
+}
+
+button{
+    width: 10rem;
+    font-weight: bolder;
+    background-color: red;
+    color: aliceblue;
+    font-size: larger;
+    height: 3.35rem;
+}
+
+.myList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.myList li {
+    color: white;
+    max-width: 40rem;
+    width: 100%;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content:space-between;
+}
+
+.yellowBtn{
+    background-color: yellow;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 5px;
+    color: red;
+    margin-top : 0.5rem;
+    font-size : medium;
+}
+
